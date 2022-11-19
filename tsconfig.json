@@ -21,6 +21,10 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+    "__mocks__"
+  ],
+  "exclude": [
+    "node_modules/**"
   ]
 }
